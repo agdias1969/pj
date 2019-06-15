@@ -102,10 +102,16 @@ body {
     opacity: 0.9;
   }
 
+  .navbar-text {
+    font-family: Cinzel, sans-serif;
+  }
+
   .nav {
       font-size: 14px;
       font-family: 'Montserrat', sans-serif;
-      
+  }
+  .nav-item {
+    font-size: 16;
   }
   .nav a {
     color: #8b3a3a;
