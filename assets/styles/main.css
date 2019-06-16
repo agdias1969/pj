@@ -22,11 +22,13 @@ body {
     border-color: #f1f1f1;
   }
   .carousel-inner img {
-    -webkit-filter: grayscale(45%);
-    filter: grayscale(45%); /* make all photos black and white */ 
-    width: 100%; /* Set width to 100% */
-    height: 100vh;
-    margin: auto;
+    -webkit-filter: grayscale(95%);
+    filter: contrast(200%); /* make all photos black and white */ 
+    max-width: 100%;
+    width: 80vw;
+    height: 90vh;
+    
+    
   }
   .carousel-caption h3 {
     color: #fff !important;
@@ -107,11 +109,17 @@ body {
   }
 
   .nav {
-      font-size: 14px;
+      font-size: 48px;
       font-family: 'Montserrat', sans-serif;
   }
-  .nav-item {
-    font-size: 16;
+
+  .navbar-nav  a {
+    color: #003366;
+    font-size: 1.2em 
+
+  }
+  .nav-item a {
+    font-size: 24 !important;
   }
   .nav a {
     color: #8b3a3a;
